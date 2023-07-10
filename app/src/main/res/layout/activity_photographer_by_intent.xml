@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".photographerByIntent">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@android:color/holo_red_light">
+
+
+
+
+        <GridLayout
+            android:id="@+id/decore_event_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alignmentMode="alignMargins"
+            android:columnCount="1"
+            android:rowCount="1"
+            android:minHeight="800dp"
+            android:columnOrderPreserved="false"
+            >
+            <androidx.cardview.widget.CardView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="5dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="334dp"
+                        android:layout_height="280dp"
+                        android:layout_gravity="center_vertical"
+                        android:id="@+id/photographerimageinintent"
+                        />
+                    <TextView
+                        android:id="@+id/photographer_type"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Type"
+                        android:textStyle="bold"
+                        android:layout_marginTop="25dp"
+                        android:textSize="20dp"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:textAlignment="center"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:id="@+id/photographer_code"
+                        android:textStyle="bold"
+                        android:layout_marginTop="25dp"
+                        android:text="Code"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:textAlignment="center"
+                        />
+                    <TextView
+                        android:id="@+id/photographer_Price"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Price Charge"
+                        android:textStyle="bold"
+                        android:layout_marginTop="25dp"
+                        android:textSize="20dp"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:textAlignment="center"/>
+
+
+                    <TextView
+                        android:id="@+id/photographer_includes"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:text="Includes"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Requirement For -"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:textColor="@color/black"/>
+                    <Spinner
+                        android:id="@+id/spinner1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:drawable/btn_dropdown"
+                        android:spinnerMode="dropdown" />
+
+
+
+
+
+
+                    <RelativeLayout
+
+                        android:id="@+id/relative_layout_for_calender"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        >
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="20sp"
+                            android:background="@android:color/holo_orange_dark"
+                            android:text="Select Date Of Your Event" />
+
+
+
+
+                        <DatePicker
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="-25dp"
+                            android:scaleX=".9"
+                            android:scaleY=".7"
+                            android:calendarTextColor="#D500F9"
+                            android:datePickerMode="calendar"
+                            android:id="@+id/datePicker" />
+
+                        <Button
+                            android:text="Get This Date"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/datePicker"
+                            android:layout_marginTop="-25dp"
+                            android:layout_centerHorizontal="true"
+                            android:id="@+id/button_to_display_date" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/button_to_display_date"
+                            android:layout_marginTop="20dp"
+                            android:textSize="24sp"
+                            android:text="DATE -"
+                            android:id="@+id/textview"
+                            android:gravity="center"/>
+
+                    </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+                    <EditText
+                        android:id="@+id/photographer_order_event_address"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:hint="Enter Full  Address   " />
+                    <ProgressBar
+                        android:id="@+id/progressBar_photographer"
+                        style="?android:attr/progressBarStyle"
+                        android:layout_width="139dp"
+                        android:layout_height="37dp"
+                        android:layout_gravity="center" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/holo_blue_bright"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"
+                        android:text="Payment Option"></TextView>
+                    <RadioGroup
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        >
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/pay_upi_photo"
+                            android:onClick="onRadioButtonClicked"
+                            android:text="Pay With UPI"></RadioButton>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/pay_on_delievery_photo"
+                            android:onClick="onRadioButtonClicked"
+                            android:text="Pay On Service"></RadioButton>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/pay_on_credentials_photo"
+                            android:onClick="onRadioButtonClicked"
+                            android:text="Pay Explicitly With Our Credential"></RadioButton>
+
+
+                    </RadioGroup>
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Pay Now"
+                        android:id="@+id/pay_now_photo"
+                        android:backgroundTint="@android:color/holo_green_light"></Button>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Account No -37880460223\nBank Holder Name:LOKESH JITENDRA PATIL\nBank Name :STATE BANK OF INDIA\nBranch COde :272\nIFSC Code :SBIN0000272"
+                        android:id="@+id/account_details_photo"></TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="You Bill Amount :"
+                        android:id="@+id/bill_amount_photo"></TextView>
+
+
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="30sp"
+                        android:layout_marginTop="25dp"
+                        android:id="@+id/button_for_appoint_photographer"
+                        android:text="Appoint Photographer"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+
+
+        </GridLayout>
+    </LinearLayout>
+
+
+
+
+
+</ScrollView>

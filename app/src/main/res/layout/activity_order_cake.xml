@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".OrderCake">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@android:color/holo_red_light">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="23sp"
+            android:text="Select Cake For Order"
+            android:textColor="@color/black"
+            android:background="@android:color/holo_blue_bright"
+            android:gravity="center"/>
+
+        <GridLayout
+            android:id="@+id/order_cake_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alignmentMode="alignMargins"
+            android:columnCount="1"
+            android:rowCount="10"
+            android:minHeight="2000dp"
+            android:columnOrderPreserved="false"
+            android:padding="14dp">
+            <androidx.cardview.widget.CardView
+                android:layout_height="400dp"
+                android:layout_width="300dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="334dp"
+                        android:layout_height="280dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/assortedfruitandalmondcake" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Assorted Fruit and Almond Cake "
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:textAlignment="center"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Price :600 Rs./0.5 KG "
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:textAlignment="center"/>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_height="400dp"
+                android:layout_width="300dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="334dp"
+                        android:layout_height="280dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/butterscotchchocolatecake" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Butterscotch Chocolate Cake "
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:textAlignment="center"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Price :500 Rs./0.5 KG"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:textAlignment="center"/>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_height="400dp"
+                android:layout_width="300dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="334dp"
+                        android:layout_height="280dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/halfchocolatehalfvanillacake" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Half Chocolate Half Vanilla Cake "
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:textAlignment="center"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Price : 500 Rs./KG "
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:textAlignment="center"/>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_height="400dp"
+                android:layout_width="300dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="334dp"
+                        android:layout_height="280dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/heartshaperedvelvetcake" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Heart Shape Red Velvet Cake"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:textAlignment="center"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Price :700 Rs./KG "
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:textAlignment="center"/>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_height="400dp"
+                android:layout_width="300dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="334dp"
+                        android:layout_height="280dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/heavenlyredvelvetchocolatecake" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Heavenly Red Velvet Chocolate Cake"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:textAlignment="center"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Price : 600 Rs./0.5 KG "
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:textAlignment="center"/>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_height="400dp"
+                android:layout_width="300dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="334dp"
+                        android:layout_height="280dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/mangopulpcake" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Mango Pulp Cake"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:textAlignment="center"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Price : 525 Rs./0.5 KG "
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:textAlignment="center"/>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_height="400dp"
+                android:layout_width="300dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="334dp"
+                        android:layout_height="280dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/pineapplecreamcake" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Pineapple Cream Cake"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:textAlignment="center"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Price :400 Rs./0.5 KG "
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:textAlignment="center"/>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_height="400dp"
+                android:layout_width="300dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="334dp"
+                        android:layout_height="280dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/redvelvetfruitlayercake" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Red Velvet Fruit Layer Cake"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:textAlignment="center"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Price :700 Rs./0.5 KG"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:textAlignment="center"/>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_height="400dp"
+                android:layout_width="300dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="334dp"
+                        android:layout_height="280dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/roundchocolatetrufflecake" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Round Chocolate Truffle Cake"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:textAlignment="center"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Price : 450 Rs./0.5 KG "
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:textAlignment="center"/>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_height="400dp"
+                android:layout_width="300dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="334dp"
+                        android:layout_height="280dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/roundshapebutterscotchcake" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Round Shape Butterscotch Cake"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:textAlignment="center"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Price :430 Rs./0.5 KG "
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:textAlignment="center"/>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </GridLayout>
+    </LinearLayout>
+
+</ScrollView>

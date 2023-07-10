@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.helloworldapplication">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Eventiators">
+        <activity android:name=".BirthdayByIntent"></activity>
+        <activity android:name=".engagementinvitation" />
+        <activity android:name=".birthdayinvitation" />
+        <activity android:name=".anniversaryinvitation" />
+        <activity android:name=".weddinginvitation" />
+        <activity android:name=".AdminShowUserDetailsAndOrders" />
+        <activity android:name=".AdminUserList" />
+        <activity android:name=".AdminNewHome" />
+        <activity android:name=".AdminViewCatering" />
+        <activity android:name=".AdminShowCakeOrders" />
+        <activity android:name=".AdminViewPhotographer" />
+        <activity android:name=".AdminDecoration" />
+        <activity android:name=".ViewCateringOrders" />
+        <activity android:name=".CateringByIntent" />
+        <activity android:name=".photographerByIntent" />
+        <activity android:name=".OrderCakeByIntent" />
+        <activity android:name=".View_Gift_orders" />
+        <activity android:name=".View_cake_orders" />
+        <activity android:name=".View_photographer_bookings" />
+        <activity android:name=".View_Decoration_orders" />
+        <activity android:name=".ModelActivity" />
+        <activity android:name=".DecoreEventByIntent" />
+        <activity android:name=".InvitationCard" />
+        <activity android:name=".OrderGifts" />
+        <activity android:name=".OrderCake" />
+        <activity android:name=".AppointPhotographer" />
+        <activity android:name=".AppointChef" />
+        <activity android:name=".DecoreEvents" />
+        <activity
+            android:name=".nav_act_home"
+            android:label="@string/title_activity_nav_act_home"
+            android:theme="@style/Theme.Eventiators.NoActionBar" />
+        <activity android:name=".admin_home" />
+        <activity
+            android:name=".Reset"
+            android:parentActivityName=".LogIn" />
+        <activity
+            android:name=".HomeScreen"
+            android:parentActivityName=".LogIn" />
+        <activity
+            android:name=".NewReg"
+            android:parentActivityName=".LogIn" />
+        <activity android:name=".LogIn" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+
+    </application>
+
+</manifest>

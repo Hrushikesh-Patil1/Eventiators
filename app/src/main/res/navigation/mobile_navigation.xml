@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.helloworldapplication.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_my_order"
+        android:name="com.example.helloworldapplication.ui.my_order.my_orderFragment"
+        android:label="My Order"
+        tools:layout="@layout/fragment_my_order" />
+
+    <fragment
+        android:id="@+id/nav_my_profile"
+        android:name="com.example.helloworldapplication.ui.my_profile.my_profileFragment"
+        android:label="My Profile"
+        tools:layout="@layout/fragment_my_profile" />
+    <fragment
+        android:id="@+id/nav_help"
+        android:name="com.example.helloworldapplication.ui.help.HelpFragment"
+        android:label="Help Center"
+        tools:layout="@layout/fragment_help" />
+    <fragment
+        android:id="@+id/nav_policy"
+        android:name="com.example.helloworldapplication.ui.policy.PolicyFragment"
+        android:label="Privacy Policy"
+        tools:layout="@layout/fragment_policy" />
+    <fragment
+        android:id="@+id/nav_about_us"
+        android:name="com.example.helloworldapplication.ui.about_us.About_UsFragment"
+        android:label="About Us"
+        tools:layout="@layout/fragment_policy" />
+
+
+
+
+</navigation>

@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CateringByIntent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:background="@android:color/holo_orange_dark"
+        android:textSize="25sp"
+        android:text="type"
+        android:id="@+id/catering_type"/>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:background="@android:color/holo_blue_bright"
+        android:textSize="25sp"
+        android:text="Select Menu For Your Event"
+        />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:background="#B9EA11"
+            android:textSize="25sp"
+            android:text="Refreshing Drinks"
+            />
+    <CheckBox
+        android:id="@+id/drink1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Iced Teas\t\t25 Rs."
+        android:layout_marginTop="16dp"
+        android:textSize="18sp" />
+    />
+
+        <CheckBox
+            android:id="@+id/drink2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cold Coffee\t\t30 Rs."
+            android:layout_marginTop="16dp"
+            android:textSize="18sp" />
+        />
+
+        <CheckBox
+            android:id="@+id/drink3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lassi\t\t40 Rs."
+            android:layout_marginTop="16dp"
+            android:textSize="18sp" />
+        />
+
+        <CheckBox
+            android:id="@+id/drink4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thandai\t\t40 Rs."
+            android:layout_marginTop="16dp"
+            android:textSize="18sp" />
+        />
+
+
+        <CheckBox
+            android:id="@+id/drink5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Orange Juice\t\t35 Rs."
+            android:layout_marginTop="16dp"
+            android:textSize="18sp" />
+        />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:background="#B9EA11"
+            android:textSize="25sp"
+            android:text="Indian Chat"
+            />
+
+        <CheckBox
+            android:id="@+id/chat1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pani Poori\t\t30 Rs."
+            android:layout_marginTop="16dp"
+            android:textSize="18sp" />
+        />
+
+        <CheckBox
+            android:id="@+id/chat2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Aloo Tikki\t\t40 Rs."
+            android:layout_marginTop="16dp"
+            android:textSize="18sp" />
+        />
+
+        <CheckBox
+            android:id="@+id/chat3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cocktail Kachori\t\t40 Rs."
+            android:layout_marginTop="16dp"
+            android:textSize="18sp" />
+        />
+
+        <CheckBox
+            android:id="@+id/chat4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bhel Puri\t\t40 Rs."
+            android:layout_marginTop="16dp"
+            android:textSize="18sp" />
+        />
+
+        <CheckBox
+            android:id="@+id/chat5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Samosa Chaat\t\t40 Rs."
+            android:layout_marginTop="16dp"
+            android:textSize="18sp" />
+        />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:background="#B9EA11"
+            android:textSize="25sp"
+            android:text="Dry Veggies"
+            />
+
+        <CheckBox
+            android:id="@+id/dry1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Paneer Capsicum Masala\t\t150 Rs."
+            android:layout_marginTop="16dp"
+            android:textSize="18sp" />
+        />
+        <CheckBox
+            android:id="@+id/dry2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Stuffed Bhindi\t\t100 Rs."
+            android:layout_marginTop="16dp"
+            android:textSize="18sp" />
+        />
+        <CheckBox
+            android:id="@+id/dry3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mixed Veg\t\t130 Rs."
+            android:layout_marginTop="16dp"
+            android:textSize="18sp" />
+        />
+        <CheckBox
+            android:id="@+id/dry4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Shahi paneer\t\t200 Rs."
+            android:layout_marginTop="16dp"
+            android:textSize="18sp" />
+        />
+        <CheckBox
+            android:id="@+id/dry5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kadai Paneer\t\t170 Rs."
+            android:layout_marginTop="16dp"
+            android:textSize="18sp" />
+        />
+        <CheckBox
+            android:id="@+id/dry6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jeera Aloo\t\t120 Rs."
+            android:layout_marginTop="16dp"
+            android:textSize="18sp" />
+        />
+        <CheckBox
+            android:id="@+id/dry7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Matar Paneer\t\t150 Rs."
+            android:layout_marginTop="16dp"
+            android:textSize="18sp" />
+        />
+        <CheckBox
+            android:id="@+id/dry8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Palak Paneer\t\t160 Rs."
+            android:layout_marginTop="16dp"
+            android:textSize="18sp" />
+        />
+        <CheckBox
+        android:id="@+id/dry9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stuffed Baingan\t\t150 Rs."
+        android:layout_marginTop="16dp"
+        android:textSize="18sp" />
+        />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:background="#B9EA11"
+            android:textSize="25sp"
+            android:text="Gravies"
+            />
+
+        <CheckBox
+            android:id="@+id/gravy1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Malai Kofta\t\t250 Rs."
+            android:layout_marginTop="16dp"
+            android:textSize="18sp" />
+        />
+
+        <CheckBox
+            android:id="@+id/gravy2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Paneer Lababdar\t\t250 Rs."
+            android:layout_marginTop="16dp"
+            android:textSize="18sp" />
+        />
+
+        <CheckBox
+            android:id="@+id/gravy3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sarson Ka Saag\t\t250 Rs."
+            android:layout_marginTop="16dp"
+            android:textSize="18sp" />
+        />
+
+        <CheckBox
+            android:id="@+id/gravy4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kashmiri Dum Aloo\t\t200 Rs."
+            android:layout_marginTop="16dp"
+            android:textSize="18sp" />
+        />
+
+        <CheckBox
+            android:id="@+id/gravy5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Amritsari Paneer Tikka\t\t250Rs."
+            android:layout_marginTop="16dp"
+            android:textSize="18sp" />
+        />
+
+        <CheckBox
+            android:id="@+id/gravy6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mixed Vegetables Makhani\t\t250 Rs."
+            android:layout_marginTop="16dp"
+            android:textSize="18sp" />
+        />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:background="#B9EA11"
+            android:textSize="25sp"
+            android:text="Chapati/Flat Bread"
+            />
+
+        <CheckBox
+            android:id="@+id/roti1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Puri\t\t\30 Rs."
+            android:layout_marginTop="16dp"
+            android:textSize="18sp" />
+        />
+        <CheckBox
+            android:id="@+id/roti2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tawa Roti or Chapati\t\t50 Rs."
+            android:layout_marginTop="16dp"
+            android:textSize="18sp" />
+        />
+        <CheckBox
+            android:id="@+id/roti3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bajra Rotla\t\t40 Rs."
+            android:layout_marginTop="16dp"
+            android:textSize="18sp" />
+        />
+        <CheckBox
+            android:id="@+id/roti4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Paratha\t\40 Rs."
+            android:layout_marginTop="16dp"
+            android:textSize="18sp" />
+        />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:background="#B9EA11"
+            android:textSize="25sp"
+            android:text="Desserts"
+            />
+        <CheckBox
+            android:id="@+id/dessert1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gulab Jamun\t\t50 Rs."
+            android:layout_marginTop="16dp"
+            android:textSize="18sp" />
+        />
+        <CheckBox
+            android:id="@+id/dessert2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jalebi\t\t40 Rs."
+            android:layout_marginTop="16dp"
+            android:textSize="18sp" />
+        />
+        <CheckBox
+            android:id="@+id/dessert3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dry Fruits Kheer\t\t50 Rs."
+            android:layout_marginTop="16dp"
+            android:textSize="18sp" />
+        />
+        <CheckBox
+            android:id="@+id/dessert4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rasgulla\t\t50 Rs."
+            android:layout_marginTop="16dp"
+            android:textSize="18sp" />
+        />
+        <CheckBox
+            android:id="@+id/dessert5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ladoo\t\t40 Rs."
+            android:layout_marginTop="16dp"
+            android:textSize="18sp" />
+        />
+        <CheckBox
+            android:id="@+id/dessert6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Shrikhand\t\t50 Rs."
+            android:layout_marginTop="16dp"
+            android:textSize="18sp" />
+        />
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Get Price Per Plate With System Calculations "
+            android:id="@+id/getpriceplate"
+           />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textview_for_plate_price"
+            android:textSize="25sp"
+            android:text="Price Per Plate "
+            android:gravity="center"
+            android:textColor="@color/black"
+            />
+
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Get Selected Menu List "
+            android:id="@+id/get_menu_string"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textview_for_menu_String"
+            android:textSize="25sp"
+            android:text="Menu List"
+
+            android:textColor="@color/black"
+            />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:background="@android:color/holo_orange_dark"
+            android:textSize="25sp"
+            android:text="Select Number Of Guests -" />
+
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <RadioButton android:id="@+id/radio_catering1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="40 To 50 People"
+
+                android:onClick="onRadioButtonClicked"/>
+            <RadioButton android:id="@+id/radio_catering2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="80 To 100 People"
+                android:onClick="onRadioButtonClicked"/>
+            <RadioButton android:id="@+id/radio_catering3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="150 To 200 People"
+                android:onClick="onRadioButtonClicked"/>
+            <RadioButton android:id="@+id/radio_catering4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="300 To 400 People"
+                android:onClick="onRadioButtonClicked"/>
+        </RadioGroup>
+
+
+
+        <RelativeLayout
+
+            android:id="@+id/relative_layout_for_calender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:background="@android:color/holo_orange_dark"
+                android:textSize="25sp"
+                android:text="Select Date Of Your Event" />
+
+
+            <DatePicker
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="-25dp"
+                android:scaleX=".9"
+                android:scaleY=".7"
+                android:calendarTextColor="#D500F9"
+                android:datePickerMode="calendar"
+                android:id="@+id/datePicker" />
+
+            <Button
+                android:text="Get This Date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/datePicker"
+                android:layout_marginTop="-25dp"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/button_to_display_date" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button_to_display_date"
+                android:layout_marginTop="20dp"
+                android:textSize="24sp"
+
+                android:id="@+id/textview_for_date_text"
+                android:gravity="center"/>
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:background="@android:color/holo_orange_dark"
+            android:textSize="25sp"
+            android:text="For How Many Days You Are Requiring Catering Service ?" />
+
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/btn_dropdown"
+            android:spinnerMode="dropdown" />
+
+        <EditText
+            android:id="@+id/address_catering"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Enter Address Of Event  " />
+        <ProgressBar
+            android:id="@+id/progressBar_catering"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="139dp"
+            android:layout_height="37dp"
+            android:layout_gravity="center" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_blue_bright"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:text="Payment Option"></TextView>
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/pay_upi_catering"
+                android:onClick="onRadioButtonClicked"
+                android:text="Pay With UPI"></RadioButton>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/pay_on_delievery_catering"
+                android:onClick="onRadioButtonClicked"
+                android:text="Pay On Service"></RadioButton>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/pay_on_credentials_catering"
+                android:onClick="onRadioButtonClicked"
+                android:text="Pay Explicitly With Our Credential"></RadioButton>
+
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Account No -37880460223\nBank Holder Name:LOKESH JITENDRA PATIL\nBank Name :STATE BANK OF INDIA\nBranch COde :272\nIFSC Code :SBIN0000272"
+            android:id="@+id/account_details_catering"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="You Bill Amount :"
+            android:id="@+id/bill_amount_catering"></TextView>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pay Now"
+            android:id="@+id/pay_now_catering"
+            android:backgroundTint="@android:color/holo_green_light"></Button>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:layout_marginTop="25dp"
+            android:id="@+id/button_for_order_catering_service"
+            android:text="Order Catering Service"/>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

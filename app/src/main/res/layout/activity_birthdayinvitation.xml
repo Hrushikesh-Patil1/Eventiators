@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".birthdayinvitation">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Generate Birthday Invitation Card"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:background="@color/teal_200"></TextView>
+
+
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/to"
+        android:ems="10"
+        android:hint="Invitation to -"
+        android:inputType="textPersonName"
+         />
+
+    <EditText
+        android:id="@+id/of"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Birthday Of -"
+        android:inputType="textPersonName"
+         />
+
+
+    <EditText
+        android:id="@+id/at"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Party At-"
+        android:inputType="textPersonName"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Date Of Your Party:"
+        android:textStyle="bold"
+        android:background="@android:color/holo_orange_dark"
+        android:textSize="25sp"></TextView>
+
+
+    <DatePicker
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/birthdaydatepicke"></DatePicker>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get This Date"
+        android:id="@+id/birthday_button_date"
+
+        android:layout_gravity="center"></Button>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_gravity="center"
+        android:id="@+id/birthday_textView_Date"
+        android:textSize="20sp"
+        android:background="@android:color/holo_blue_dark"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Timing Of Your Party:"
+            android:textStyle="bold"
+            android:background="@android:color/holo_orange_dark"
+            android:textSize="25sp"></TextView>
+        <TimePicker
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/birthdaytimepicke"></TimePicker>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get This Time"
+            android:onClick="setTime"
+            android:id="@+id/birthday_button_time"
+            android:layout_gravity="center"></Button>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:id="@+id/birthday_textView_time"
+            android:background="@android:color/holo_blue_dark"></TextView>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Grab The Invitation Card "
+            android:id="@+id/grab_birthday"></Button>
+
+
+    </LinearLayout>
+</ScrollView>

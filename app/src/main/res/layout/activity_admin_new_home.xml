@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/simple"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".AdminNewHome">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome Admin"
+        android:textSize="50sp"
+        android:textColor="@color/white"
+        android:textStyle="italic"
+        android:layout_gravity="center"
+        android:gravity="center"></TextView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:text="View User List"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:backgroundTint="@android:color/holo_orange_dark"
+        android:id="@+id/view_user_list"></Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:text="View Users With Details And Orders "
+        android:backgroundTint="@android:color/holo_blue_bright"
+        android:id="@+id/view_user_list_with_details_and_orders"></Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:text="Log Out"
+        android:textStyle="bold"
+        android:textSize="50sp"
+        android:textColor="@color/black"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:id="@+id/admin_log_out"></Button>
+</LinearLayout>
